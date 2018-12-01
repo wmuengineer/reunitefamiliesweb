@@ -3,6 +3,7 @@ node_js:
   - "9.11"
 before_script:
   - npm install -g node-gyp
+  - npm install
 script:
   - npm test
   - npm run build
