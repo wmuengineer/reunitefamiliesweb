@@ -5,6 +5,7 @@
   "dependencies": {
     "bootstrap": "^4.1.1",
     "firebase": "^5.2.0",
+    "firebase-tools": "3.19.3",
     "i18next": "^11.4.0",
     "i18next-browser-languagedetector": "^2.2.2",
     "i18next-xhr-backend": "^1.5.1",
