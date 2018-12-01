@@ -1,9 +1,9 @@
 language: node_js
 node_js:
-  - "9.11"
-before_script:
-  - npm install -g node-gyp
+  - "stable"
+cache:
+  directories:
+    - node_modules
 script:
-  - npm install
   - npm test
   - npm run build
